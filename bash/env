@@ -1,0 +1,5 @@
+#put my executables as well in the list
+export PATH=~/bin:$PATH
+
+#vim is the default editor :)
+export EDITOR="mvim -f"

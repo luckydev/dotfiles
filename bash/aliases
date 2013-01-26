@@ -1,0 +1,32 @@
+alias rl='source ~/.profile'
+
+#navigation shortcuts
+alias l='ls -alph'
+alias h='cd'
+alias c='clear'
+
+#git commands alias
+alias gl="git log -30 --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative" 
+alias gcm='git commit -m'
+alias gs='git status'
+alias gm='git merge'
+alias gp='git push'
+
+#program shortcuts
+alias v='mvim'
+alias g='git'
+alias p='python'
+alias r='ruby'
+
+function take {
+  mkdir -p $1
+  cd $1
+}
+
+#grep aliases
+alias grep='grep --color=auto'
+alias s='git grep --color=auto'
+alias sf='git grep -l --color=auto'
+
+#list all files with TODOs in code in the current project
+alias lt='grep -lr TODO *'
