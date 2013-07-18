@@ -15,5 +15,5 @@ source LOCATION_OF_CLONED_REPO/bashrc
 
 Replace LOCATION_OF_CLONED_REPO by the actual location of cloned dotfiles, for me it is 
 ```bash
-source ~/Dropbox/dotfiles/bashrc
+source ~/dotfiles/bashrc
 ```

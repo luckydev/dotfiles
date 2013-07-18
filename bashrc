@@ -1,3 +1,3 @@
-source ~/Dropbox/dotfiles/bash/env
-source ~/Dropbox/dotfiles/bash/config
-source ~/Dropbox/dotfiles/bash/aliases
+source ~/dotfiles/bash/env
+source ~/dotfiles/bash/config
+source ~/dotfiles/bash/aliases

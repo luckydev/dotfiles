@@ -15,7 +15,6 @@ alias gp='git push'
 #program shortcuts
 alias v='mvim'
 alias g='git'
-alias p='python'
 alias r='ruby'
 
 function take {
