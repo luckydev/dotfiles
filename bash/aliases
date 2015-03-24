@@ -16,6 +16,7 @@ alias gp='git push'
 alias v='mvim'
 alias g='git'
 alias r='ruby'
+alias n='node'
 
 function take {
   mkdir -p $1
