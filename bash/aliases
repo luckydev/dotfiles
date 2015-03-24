@@ -1,4 +1,4 @@
-alias rl='source ~/.profile'
+alias rl='source ~/.bash_profile'
 
 #navigation shortcuts
 alias l='ls -alph'
@@ -30,3 +30,6 @@ alias sf='git grep -l --color=auto'
 
 #list all files with TODOs in code in the current project
 alias lt='grep -lr TODO *'
+
+# list all git branches with try as first characters
+alias gbr="git for-each-ref --format='%(refname:short)' 'refs/heads/try*' | xargs git branch -D"
