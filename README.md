@@ -9,11 +9,15 @@ vi ~/.bash_profile
 
 Insert this line at the bottom:
 ```bash
-source LOCATION_OF_CLONED_REPO/bashrc
+export DOTFILES=LOCATION_OF_CLONED_REPO
+source $DOTFILES/bashrc
 ```
 
 
 Replace LOCATION_OF_CLONED_REPO by the actual location of cloned dotfiles, for me it is 
 ```bash
-source ~/dotfiles/bashrc
+export DOTFILES=~/dotfiles
+source $DOTFILES/bashrc
 ```
+
+Note - The alias `e` (setup in `bash/aliases`) wont work if the above location is named anything other than `$DOTFILES`.
