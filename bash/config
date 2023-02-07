@@ -1,5 +1,5 @@
 #bash prompt
-#export PS1="\h:\w \e[0;33m\`ruby -e \"print (%x{git branch 2> /dev/null}.split(%r{\n}).grep(/^\*/).first || '').gsub(/^\* (.+)$/, '(\1) ')\"\`\e[m\$ "
+export PS1="\h:\w \e[0;33m\`ruby -e \"print (%x{git branch 2> /dev/null}.split(%r{\n}).grep(/^\*/).first || '').gsub(/^\* (.+)$/, '(\1) ')\"\`\e[m\$ "
 
 # get current branch in git repo
 function parse_git_branch() {
@@ -48,7 +48,7 @@ function parse_git_dirty {
 	fi
 }
 
-export PS1="\@ \w\[\e[32m\]\`parse_git_branch\`\[\e[m\] $ "
+# export PS1="\@ \w\[\e[32m\]\`parse_git_branch\`\[\e[m\] $ "
 
 #homebrew config
 # user bin > brew bin > system bin
