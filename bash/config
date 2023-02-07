@@ -50,17 +50,20 @@ function parse_git_dirty {
 
 export PS1="\@ \w\[\e[32m\]\`parse_git_branch\`\[\e[m\] $ "
 
-#rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
-#nvm
-export NVM_DIR=~/.nvm
-source ~/.nvm/nvm.sh
-
 #homebrew config
 # user bin > brew bin > system bin
-export PATH="$HOME/bin":"/usr/local/bin":$PATH
+export PATH=$HOME/bin:/opt/homebrew/bin:/opt/homebrew/bin:/usr/local/bin:$PATH
+
+#rbenv
+eval "$(rbenv init - bash)"
+
+#nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+export BASH_SILENCE_DEPRECATION_WARNING=1
+

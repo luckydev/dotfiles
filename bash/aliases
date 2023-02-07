@@ -1,4 +1,4 @@
-alias e='mvim $DOTFILES'
+alias e='vim $DOTFILES'
 alias rl='source ~/.bash_profile'
 
 #navigation shortcuts
@@ -14,7 +14,7 @@ alias gm='git merge'
 alias gp='git push'
 
 #program shortcuts
-alias v='mvim'
+alias v='vim'
 alias g='git'
 alias r='ruby'
 alias n='node'
