@@ -1,5 +1,5 @@
 alias e='vim $DOTFILES'
-alias rl='source ~/.bash_profile'
+alias rl='source ~/.zshrc'
 
 #navigation shortcuts
 alias l='ls -alph'
