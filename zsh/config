@@ -67,3 +67,10 @@ export LC_ALL=en_US.UTF-8
 
 # export BASH_SILENCE_DEPRECATION_WARNING=1
 
+# load fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# git config
+git config --global alias.co checkout
+git config --global alias.st status
+
