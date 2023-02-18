@@ -1,2 +1,0 @@
-#vim is the default editor :)
-export EDITOR="vim"

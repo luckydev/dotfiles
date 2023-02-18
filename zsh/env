@@ -1,0 +1,2 @@
+#neovim is the default editor :)
+export EDITOR="nvim"

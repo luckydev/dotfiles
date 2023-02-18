@@ -1,10 +1,10 @@
 HOW TO USE 
 
 1. Clone this repo to your machine
-2. Set up your ~/.bash_profile to read the bashrc inside the repo. Like,
+2. Set up your ~/.zshrc to read the bashrc inside the repo. Like,
 
 ```bash
-vi ~/.bash_profile
+vi ~/.zshrc
 ```
 
 Insert this line at the bottom:
